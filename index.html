@@ -59,7 +59,7 @@
 			    <p> unavailable </p>
 			</div>
 			
-					<button type="button" class="btn btn-success">download</button>
+					<button onclick="gotoLink(this)"class="btn btn-success"  value="https://drive.google.com/file/d/159F_oTqBjCVOwdpyUofgNREBstl99mPt/view?usp=sharing">download</button>
                 </div>
             </div>
             <div class = "col">
@@ -78,7 +78,7 @@
 			    <p> unavailable </p>
 			</div>
 					
-					<button type="button" class="btn btn-success">download</button>
+					<button onclick="gotoLink(this)"class="btn btn-success"  value="https://drive.google.com/file/d/159F_oTqBjCVOwdpyUofgNREBstl99mPt/view?usp=sharing">download</button>
                 </div>
             </div>
             <div class = "col">
@@ -92,7 +92,7 @@
 			   
 			    <p> unavailable </p>
 			</div>
-					<button type="button" class="btn btn-success">download</button>
+					<button onclick="gotoLink(this)"class="btn btn-success"  value="https://drive.google.com/file/d/159F_oTqBjCVOwdpyUofgNREBstl99mPt/view?usp=sharing">download</button>
                 </div>
             </div>
        
@@ -111,7 +111,7 @@
 			   
 			    <p> unavailable </p>
 			</div>
-					<button type="button" class="btn btn-success">download</button>
+					<button onclick="gotoLink(this)"class="btn btn-success"  value="https://drive.google.com/file/d/159F_oTqBjCVOwdpyUofgNREBstl99mPt/view?usp=sharing">download</button>
                 </div>
             </div>
             <div class = "col">
@@ -127,7 +127,7 @@
 			    <p> unavailable </p>
 			</div>
 					
-					<button type="button" class="btn btn-success">download</button>
+					<button onclick="gotoLink(this)"class="btn btn-success"  value="https://drive.google.com/file/d/159F_oTqBjCVOwdpyUofgNREBstl99mPt/view?usp=sharing">download</button>
                 </div>
             </div>
             <div class = "col">
@@ -140,7 +140,7 @@
                    
 			    <p> unavailable </p>
 			</div>
-					<button type="button" class="btn btn-success">download</button>
+					<button onclick="gotoLink(this)"class="btn btn-success"  value="https://drive.google.com/file/d/159F_oTqBjCVOwdpyUofgNREBstl99mPt/view?usp=sharing">download</button>
                 </div>
             </div>
         </div>
@@ -157,7 +157,7 @@
 			     <br />
 			    <p> unavailable </p>
 			</div>
-					<button type="button" class="btn btn-success">download</button>
+					<button onclick="gotoLink(this)"class="btn btn-success"  value="https://drive.google.com/file/d/159F_oTqBjCVOwdpyUofgNREBstl99mPt/view?usp=sharing">download</button>
                 </div>
             </div>
             <div class = "col">
@@ -172,8 +172,7 @@
 			     <br />
 			    <p> unavailable </p>
 			</div>
-					
-					<button type="button" class="btn btn-success">download</button>
+					<button onclick="gotoLink(this)"class="btn btn-success"  value="https://drive.google.com/file/d/159F_oTqBjCVOwdpyUofgNREBstl99mPt/view?usp=sharing">download</button>
                 </div>
             </div>
             <div class = "col">
@@ -187,7 +186,7 @@
 			    <br />
 			    <p> unavailable </p>
 			</div>
-					<button type="button" class="btn btn-success">download</button>
+					<button onclick="gotoLink(this)"class="btn btn-success"  value="https://drive.google.com/file/d/159F_oTqBjCVOwdpyUofgNREBstl99mPt/view?usp=sharing">download</button>
                 </div>
             </div>
         </div>
@@ -306,7 +305,10 @@ div {div-align:center}
 script {text-align:center}
 
 </style>
-
-
-
+<script>
+function gotoLink(link){
+console.log(link.value);
+location.href = link.value;
+};
+	</script>
 </html>
